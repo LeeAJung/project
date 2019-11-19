@@ -1,0 +1,22 @@
+<view>
+
+  <view> 
+    <input placeholder="请输入11位手机号"></input>
+    <icon></icon>
+  </view>
+
+  <view>
+    <input placeholder="输入密码"></input>
+  </view>
+
+</view>
+
+<view>
+<button>登录</button>
+</view>
+
+<view>
+  <navigator>登录</navigator>
+  <navigator>找回密码</navigator>
+</view>
+
