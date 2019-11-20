@@ -55,13 +55,14 @@ text-indent: 21rpx;
 .btn__login{
   margin-top: 51rpx;
   margin-left: 19rpx;
+  font-weight: 10;
   background-color: #3d7eff;
 }
 .link{
   display: flex;
   flex-direction: row;
 }
-.link__signup{
+.link__register{
   margin-left: 19rpx;
   color:  #3d7eff; 
 }

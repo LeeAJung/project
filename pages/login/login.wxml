@@ -23,7 +23,7 @@
 </view>
 
 <view class="link">
-  <navigator class="link__signup">登录</navigator>
+  <navigator class="link__register">注册</navigator>
   <navigator class="link__getback">找回密码</navigator>
 </view>
 
