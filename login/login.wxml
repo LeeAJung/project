@@ -1,22 +1,22 @@
-<view>
+<view class="from">
 
-  <view> 
-    <input placeholder="请输入11位手机号"></input>
-    <icon></icon>
+  <view class="cell"> 
+    <input class="cell__bd" placeholder="请输入11位手机号"></input>
+    <icon class="input-icon"></icon>
   </view>
 
-  <view>
-    <input placeholder="输入密码"></input>
+  <view class="cell">
+    <input class="cell__bd" placeholder="输入密码"></input>
   </view>
 
 </view>
 
-<view>
-<button>登录</button>
+<view class="btn">
+<button class="btn__login">登录</button>
 </view>
 
-<view>
-  <navigator>登录</navigator>
-  <navigator>找回密码</navigator>
+<view class="link">
+  <navigator class="link__signup">登录</navigator>
+  <navigator class="link__getback">找回密码</navigator>
 </view>
 
