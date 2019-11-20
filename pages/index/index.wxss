@@ -65,6 +65,7 @@ text-indent: 21rpx;
 .btn__register{
   margin-top: 50rpx;
   margin-left: 19rpx;
+  font-weight: 10;
   background-color: #3d7eff;
 }
 .link{
@@ -76,6 +77,6 @@ text-indent: 21rpx;
   color:  #3d7eff; 
 }
 .link__getback{
-  margin-left: 500rpx;
+  margin-left: 515rpx;
   color: #3d7eff;
 }

@@ -53,6 +53,7 @@ text-indent: 21rpx;
 .btn__getBack{
   margin-top: 50rpx;
   margin-left: 19rpx;
+  font-weight: 10;
   background-color: #3d7eff;
 }
 .link{

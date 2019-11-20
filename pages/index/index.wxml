@@ -10,7 +10,7 @@
     <input class="cell__bd input-code" placeholder="验证码"></input>
     <button disabled="true" 
             class="cell__ft" 
-            style="width:211rpx;height:91rpx;font-size:18px;background-color:#f7f7f7;line-height:90rpx;border-left:1rpx solid;" 
+            style="width:211rpx;height:91rpx;font-size:26.67rpx;background-color:#f7f7f7;line-height:90rpx;border-left:1rpx solid;" 
             size="mini">
             获取验证码
     </button>
