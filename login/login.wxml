@@ -1,3 +1,8 @@
+<view class="title">
+<text class="title__first">二手好车</text>
+<text class="title__second">任你选</text>
+</view>
+
 <view class="from">
 
   <view class="cell"> 
@@ -12,7 +17,7 @@
 </view>
 
 <view class="btn">
-<button class="btn__login">登录</button>
+<button class="btn__login" style="background-color: #3d7eff;width:711rpx;margin-left: 19rpx;color:white;">登录</button>
 </view>
 
 <view class="link">

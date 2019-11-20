@@ -1,1 +1,57 @@
 /* pages/login/login.wxss */
+.title{
+display: flex;
+flex-direction: row;
+margin-top: 77rpx;
+margin-bottom: 77rpx;
+margin-left: 232rpx;
+}
+.title__first{
+font-size: 37.34rpx;
+font-weight: 1000;
+}
+.title__second{
+margin-left: 15rpx;
+font-size: 37.34rpx;
+font-weight: 1000;
+color: #3d7eff;
+}
+.form {
+display: flex;
+flex-direction: column;
+margin-left: 19rpx;
+}
+
+.cell {
+margin: 22rpx 0;
+}
+
+.cell__bd {
+width: 711rpx;
+height: 91rpx; background-color:#f7f7f7 ;
+margin-left: 19rpx;
+font-size: 26.67rpx;
+text-indent: 21rpx;
+}
+.btn{
+  width: 711rpx;
+  height: 91rpx;
+  margin-top: 20rpx;
+}
+.btn__login{
+  margin-top: 51rpx;
+  margin-left: 19rpx;
+  background-color: #3d7eff;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+}
+.link__signup{
+  margin-left: 19rpx;
+  color:  #3d7eff; 
+}
+.link__getback{
+  margin-left: 500rpx;
+  color: #3d7eff;
+}
