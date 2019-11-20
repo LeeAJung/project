@@ -1,1 +1,69 @@
 /* pages/index/getBack.wxss */
+.form {
+display: flex;
+flex-direction: column;
+}
+
+.cell {
+margin: 22rpx 0;
+}
+
+.cell__bd {
+width: 711rpx;
+height: 91rpx; background-color:#f7f7f7 ;
+margin-left: 19rpx;
+font-size: 26.67rpx;
+text-indent: 21rpx;
+}
+.input-icon{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin: -60rpx 600rpx;
+}
+.input-code {
+  width: 500rpx;
+  height: 91rpx;
+  background-color: #f7f7f7;
+  margin-left: 19rpx;
+  font-size: 26.67rpx;
+  text-indent: 21rpx;
+}
+.cell__ft{
+  position:absolute;
+  top: 155rpx;
+  right: 25rpx;
+  width: 30%;
+  height: 91rpx;
+  font-size: 18px;
+}
+.input-eye{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 50rpx;
+  height: 50rpx;
+  margin: -70rpx 600rpx;
+}
+.btn{
+  width: 711rpx;
+  height: 91rpx;
+  margin-top: 20rpx;
+}
+.btn__getBack{
+  margin-top: 50rpx;
+  margin-left: 19rpx;
+  background-color: #3d7eff;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+}
+.link__signup{
+  margin-left: 19rpx;
+  color:  #3d7eff; 
+}
+.link__register{
+  margin-left: 580rpx;
+  color: #3d7eff;
+}
