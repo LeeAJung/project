@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="form">
+
+  <view class="cell"> 
+    <input bindinput="clearInput" class="cell__bd" data-name="phone" type="number" maxlength="11" focus="true" value="{{phoneValue}}" placeholder="请输入11位手机号" ></input>
+    <icon bindtap="clearBtn" hidden="{{phoneValue.length === 0}}" data-name="phone" type="clear" class="input-icon" size="20"></icon>
+  </view>
+
+  <view class="cell">
+    <input class="input-code" placeholder="验证码"></input>
+    <button disabled="true" 
+            class="cell__ft" 
+            style="width:211rpx;height:91rpx;font-size:18px;background-color:#f7f7f7;line-height:90rpx;border-left:1rpx solid;" 
+            size="mini">
+            获取验证
+    </button>
+  </view>
+
+  <view class="cell">
+    <input class="cell__bd" placeholder="输入密码"></input>
+    <image src="../images/bi.png" class="input-eye"></image>
+    <image src="../images/zheng.png" class="input-eye"></image>
+  </view>
+
+  <view class="cell">
+    <input class="cell__bd" placeholder="邀请码"></input>
+  </view>
+
+</view>
+
+
+<view class="note">
+<text class="note__text">注册即视为同意</text>
+<navigator class="note__agreement">《用户协议》</navigator>
+</view>
+
+<view class="btn">
+<button class="btn__register" 
+style="background-color: #3d7eff;width:711rpx;margin-left: 19rpx;color:white;"
+bindtap="clickBtn">注册</button>
+</view>
+
+
+<view class="link">
+  <navigator class="link__signup">登录</navigator>
+  <navigator class="link__getback">找回密码</navigator>
+</view>

@@ -7,11 +7,13 @@
 
   <view class="cell"> 
     <input class="cell__bd" placeholder="请输入11位手机号"></input>
-    <icon class="input-icon"></icon>
+    <icon class="input-icon" type="clear" size="20"></icon>
   </view>
 
   <view class="cell">
     <input class="cell__bd" placeholder="输入密码"></input>
+    <image src="../images/bi.png" class="input-eye"></image>
+    <image src="../images/zheng.png" class="input-eye"></image>
   </view>
 
 </view>
