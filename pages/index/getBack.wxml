@@ -2,8 +2,8 @@
 <view class="form">
 
   <view class="cell"> 
-    <input class="cell__bd" placeholder="请输入11位手机号" ></input>
-    <icon type="clear" class="input-icon" size="20"></icon>
+     <input bindinput="clearInput" class="cell__bd" data-name="phone" type="number" maxlength="11" focus="true" value="{{phoneValue}}" placeholder="请输入11位手机号" ></input>
+    <icon bindtap="clearBtn" hidden="{{phoneValue.length === 0}}" data-name="phone" type="clear" class="input-icon" size="20"></icon>
   </view>
 
   <view class="cell">

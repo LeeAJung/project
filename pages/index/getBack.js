@@ -5,7 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    clearInput: "",
+    phoneValue: "",
+  },
+  clearInput: function (e) {
+    let that = this;
+    console.log("查看输入的值");
+    console.log(e);
+    console.log(e.currentTarget.dataset.name);
+    console.log(e.detail.value);
+    let inputName = e.currentTarget.dataset.name;
+    let inputValue = e.detail.value;
+    console.log(inputName === "phone");
+    if (inputName === "phone") {
+      that.setData({
+        phoneValue: inputValue,
+      });
+    } else if (inputName === "password") {
+      that.setData({
+        passwordValue: inputValue,
+      });
+    };
   },
 
   /**
